@@ -68,7 +68,6 @@ class StudentSignup extends React.Component {
   }
 
   doRegister = () => {
-    console.log(this.state.password);
     var that = this;
     firebase
       .auth()

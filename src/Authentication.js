@@ -72,7 +72,7 @@ class Authentication extends React.Component {
     let that = this;
     console.log("here");
 
-    ///// MAKE IT SO IT FINDS THE TYPE AND ROUTES TO THAT HOME PAGE!!!
+    ///// MAKE IT SO IT FINDS THE TYPE AND ROUTES TO THAT HOME PAGE
     let curEmail = this.state.email;
     let route = this.props.history;
     firebase

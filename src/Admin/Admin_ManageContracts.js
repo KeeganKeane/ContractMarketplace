@@ -59,7 +59,6 @@ export default class AdminManageContracts extends React.Component {
     //console.log( deletedIndexes )
 
     //find which contract name they refer to and remove it
-
     for (let i = 0; i < deletedIndexes.length; i++) {
       //console.log( deletedIndexes[i] )
       let compName = this.state.companyNames[deletedIndexes[i]];

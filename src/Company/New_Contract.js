@@ -62,6 +62,7 @@ class NewContract extends React.Component {
     }
   }
 
+
   updateField(field, newValue) {
     this.setState({
       ...this.state,
