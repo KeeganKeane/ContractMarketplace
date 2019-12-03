@@ -1,25 +1,20 @@
 .RevTekHome-Entire {
-  background-image: url(http://www.infinityschool.org/infinity/images/blue-blurry-background.jpg);
+  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=astro-astronomy-background-956999.jpg&fm=jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .RevTekHome-Header {
-  /* background-image: url(https://www.solonline.org/wp-content/uploads/2014/05/blue-business-background-with-lines_bmofce6g__F0000-1-1140x641.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
   min-height: 12vh;
   max-height: 15vh;
   min-width: 55vh;
   font-size: calc(40px + 2vmin);
   color: white;
   direction: flex;
-  padding-top: 35px;
+  padding-top: 10px;
 }
 
 .RevTekHome-Body {
-  /* background-image: url(http://www.infinityschool.org/infinity/images/blue-blurry-background.jpg);
-  background-size: cover; */
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -27,8 +22,6 @@
 }
 
 .RevTekHome-Image {
-  /* background-image: url(http://www.infinityschool.org/infinity/images/blue-blurry-background.jpg);
-  background-size: cover; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,16 +45,14 @@
 }
 
 .RevTekHome-Title {
-  font-size: calc(15px + 2vmin);
+  font-size: calc(10px + 2vmin);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .RevTekHome-Info {
-  /* background-color: #282c34; */
   min-height: 15vh;
-  /* min-width: 100vh; */
-  font-size: calc(5px + 2vmin);
+  font-size: calc(1px + 2vmin);
   padding-top: 10px;
   padding-right: 50px;
   padding-left: 50px;
@@ -78,4 +69,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.navBarLogo {
+  max-height: 8vh;
 }

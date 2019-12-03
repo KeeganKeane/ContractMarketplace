@@ -13,6 +13,7 @@ import ExitToApp from "@material-ui/icons/ExitToApp";
 import AssignmentTurnedIn from "@material-ui/icons/AssignmentTurnedIn";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import Button from "@material-ui/core/Button";
+import Logo from "./revteklogo.png";
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -172,18 +173,11 @@ function RevTekHomeNavBar(props) {
         <Toolbar style={{ marginTop: "-2px" }}>
           <Button
             variant="text"
-            noWrap
-            style={{
-              fontSize: "26px",
-              backgroundColor: "transparent",
-              color: "inherit",
-              textTransform: "none",
-              boxShadow: "none"
-            }}
             href="/"
           >
-            RevTek
+            <img className="navBarLogo" src={Logo} />
           </Button>
+
           <Typography
             className={classes.title}
             variant="h6"

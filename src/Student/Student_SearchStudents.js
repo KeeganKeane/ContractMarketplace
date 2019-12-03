@@ -102,7 +102,8 @@ export default class StudentSearchStudents extends React.Component {
     return (
       <div className="Student-whole">
         <StudentNavBar history={this.props.history} />
-        <h1>Student Community</h1>
+        <h1 className="dashboardHeader">Student Community</h1>
+        <br/>
         <div>
           <MUIDataTable
             title={"Students"}

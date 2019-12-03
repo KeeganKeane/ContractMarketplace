@@ -1,7 +1,9 @@
 
 
 .Admin-users-whole {
-  background-image: url(http://www.infinityschool.org/infinity/images/blue-blurry-background.jpg);
+  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=astro-astronomy-background-956999.jpg&fm=jpg);
+  background-size: cover;
+  color: white;
   align-items: center;
   min-height: 100vh;
 

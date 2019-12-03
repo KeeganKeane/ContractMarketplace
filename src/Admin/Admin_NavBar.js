@@ -15,6 +15,8 @@ import ExitToApp from "@material-ui/icons/ExitToApp";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import Button from "@material-ui/core/Button";
 import firebase from "../firebase.js";
+import Logo from "../revteklogo.png";
+
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -207,7 +209,7 @@ function AdminNavBar(props) {
             }}
             onClick={() => routeToAbout()}
           >
-            RevTek
+            <img className="navBarLogo" src={Logo} />
           </Button>
           <Typography
             className={classes.title}

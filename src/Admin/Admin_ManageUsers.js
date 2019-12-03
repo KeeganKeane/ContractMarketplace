@@ -48,7 +48,7 @@ export default class AdminManageUsers extends React.Component {
     const deletedIndexes = Object.keys(deletedRows.lookup);
     //console.log( deletedIndexes )
 
-    //find which contract name they refer to and remove it
+    //find which user the indices refer to and remove it
     for (let i = 0; i < deletedIndexes.length; i++) {
       console.log(deletedIndexes[i]);
       let email =  this.state.emails[ deletedIndexes[i] ]; 
@@ -144,7 +144,7 @@ export default class AdminManageUsers extends React.Component {
       }
 
      
-      // 4) add some way for the company to know why their contract became available (is this necessary?)
+      // 4) add some way for the company to know why their contract became available 
     }
     window.location.reload();
   };
@@ -174,7 +174,8 @@ export default class AdminManageUsers extends React.Component {
     return (
       <div className="Admin-users-whole">
         <AdminNavBar history={this.props.history} />
-        <h1>Manage Users</h1>
+        <h1 className="dashboardHeader">Manage Users</h1>
+        <br/>
         <div >
           <MUIDataTable
             title={"Users"}

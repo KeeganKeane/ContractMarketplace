@@ -136,7 +136,8 @@ class StudentHome extends React.Component {
     return (
       <div className="Student-whole">
         <StudentNavBar history={this.props.history} />
-        <h1>Student Dashboard</h1>
+        <h1 className="dashboardHeader">{this.state.student_name}</h1>
+        <div> My Dashboard </div>
 
         <div className="Student-Profile">
           <List>
@@ -150,10 +151,6 @@ class StudentHome extends React.Component {
                 overflow: "auto"
               }}
             >
-              <div>
-                <b className="name">{this.state.student_name} </b>
-                <Divider />
-              </div>
               <CardContent>
                 <div>
                   <b>Email: </b>

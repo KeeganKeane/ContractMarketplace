@@ -208,14 +208,7 @@ this.setState({biofeedback : true})
             <StudentNavBar  history={this.props.history} />
 
            <div className = 'StudentEdit-Profile'>
-             {/* <Card className='StudentEdit-studentholder' style={{maxHeight: 300, overflow: 'auto'}}> 
-                   <CardContent>
-                        <div>
-                        <h1>Edit Your Profile</h1>
-                        </div>
-                   </CardContent>     
-               </Card>   */}
-               <h1>Edit Your Profile</h1>
+               <h1 className="dashboardHeader">Edit Your Profile</h1>
                <List>
                    {/** Implemented a scrollbar */}
                <Card className='StudentEdit-studentholder' style={{maxHeight: 300, overflow: 'auto'}}> 

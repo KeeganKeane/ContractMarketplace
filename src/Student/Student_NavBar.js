@@ -15,6 +15,7 @@ import MoreIcon from "@material-ui/icons/MoreVert";
 import GroupIcon from "@material-ui/icons/Group";
 import Button from "@material-ui/core/Button";
 import firebase from "../firebase.js";
+import Logo from "../revteklogo.png";
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -216,7 +217,7 @@ function StudentNavBar(props) {
             }}
             onClick={() => routeToAbout()}
           >
-            RevTek
+            <img className="navBarLogo" src={Logo} />
           </Button>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

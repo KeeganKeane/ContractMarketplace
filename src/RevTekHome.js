@@ -47,7 +47,7 @@ class RevTekHome extends React.Component {
                 fontSize: "calc(35px + 2vmin)",
                 fontWeight: "bold",
                 backgroundColor: "transparent",
-                color: "#282828",
+                color: "#FFFFFF",
                 textTransform: "none",
                 boxShadow: "none"
               }}
@@ -62,12 +62,8 @@ class RevTekHome extends React.Component {
             <Card
               className="RevTekHome-Info"
               style={{
-                // maxHeight: 200,
-                // maxWidth: 100,
                 overflow: "auto",
                 opacity: 0.97
-                // paddingLeft: "30px",
-                // paddingRight: "30px"
               }}
             >
               <div className="RevTekHome-Title" style={{ color: "#282828" }}>
@@ -88,7 +84,6 @@ class RevTekHome extends React.Component {
             </Card>
           </Container>
           <br />
-          <br />
           <div className="RevTekHome-ServiceCards">
             <Container maxWidth="md">
               <Card
@@ -104,7 +99,7 @@ class RevTekHome extends React.Component {
                 }}
               >
                 <div className="RevTekHome-Title">
-                  <b>Student Services</b>
+                  <b>For Students</b>
                 </div>
                 <Divider />
                 <br />
@@ -127,7 +122,6 @@ class RevTekHome extends React.Component {
                   color="black"
                   style={{ fontSize: "17px" }}
                 />
-                <br />
                 <div>
                   <Button
                     variant="contained"
@@ -155,7 +149,7 @@ class RevTekHome extends React.Component {
                 }}
               >
                 <div className="RevTekHome-Title">
-                  <b>Company Services</b>
+                  <b>For Companies</b>
                 </div>
                 <Divider />
                 <br />
@@ -178,7 +172,6 @@ class RevTekHome extends React.Component {
                   color="black"
                   style={{ fontSize: "17px" }}
                 />
-                <br />
                 <div>
                   <Button
                     variant="contained"

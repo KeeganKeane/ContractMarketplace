@@ -138,9 +138,9 @@ class Marketplace extends React.Component {
       dataLoaded && (
         <div className="Student-whole">
           <StudentNavBar history={this.props.history} />
-          <h1>Contract Marketplace</h1>
+          <h1 className="dashboardHeader">Contract Marketplace</h1>
           <div className="topstuff">
-            <h3>Available Contracts</h3>
+            <h3 className="header" >Available Contracts</h3>
 
 
 
